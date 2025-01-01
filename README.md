@@ -1,4 +1,5 @@
-🌐 AWS Resource Monitor 📊
+# 🌐 AWS Resource Monitor 📊
+
 🚀 AWS Resource Monitor is a lightweight yet powerful project designed to track and log system resource consumption on your AWS instances! Perfect for admins who need seamless monitoring and timely notifications.
 
 ✨ Features
