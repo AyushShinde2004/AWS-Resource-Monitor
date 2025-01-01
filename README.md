@@ -4,9 +4,13 @@
 
 ✨ Features
 📈 Real-time Resource Monitoring: Tracks CPU, memory, and disk usage for efficient AWS instance management.
+
 🗂️ Log Management: Automatically stores logs periodically using crontab.
+
 📬 Email Notifications: Sends detailed resource logs to administrators via Postfix.
+
 ⚙️ Bash Automation: Scripts written in Bash for robust and efficient execution.
+
 🌟 Customizable: Easily modify logging frequency and email configurations to suit your needs.
 
 🛠️ Tech Stack
