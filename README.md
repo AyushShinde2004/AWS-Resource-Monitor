@@ -36,21 +36,21 @@
 ## Make the Script Executable ⚙️
 
 Before running the script, you'll need to give it execute permission. Run the following command:
-chmod +x /path/to/your/Script.sh
+`chmod +x /path/to/your/Script.sh`
 
 ## Set Up the Crontab Job to Schedule the Script ⏰
 
 1. Open the crontab editor:
-crontab -e
+`crontab -e`
 
 2. Add the following line to schedule the script to run periodically (e.g., every day):
-0 0 * * * /path/to/your/Script.sh
+`0 0 * * * /path/to/your/Script.sh`
 
 3. Save and exit the crontab editor.
 
 ## Run the Script Manually 🏃‍♀️
 
 For testing or a one-time run, you can run the script manually with:
-bash /path/to/your/Script.sh
+`bash /path/to/your/Script.sh`
 
 Follow these steps to start monitoring your AWS instances like a pro! 💪
