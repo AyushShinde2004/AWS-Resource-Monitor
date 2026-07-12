@@ -33,12 +33,12 @@
 
 ## 🔗 Getting Started
 
-## Make the Script Executable ⚙️
+### Make the Script Executable ⚙️
 
 Before running the script, you'll need to give it execute permission. Run the following command:
 `chmod +x /path/to/your/Script.sh`
 
-## Set Up the Crontab Job to Schedule the Script ⏰
+### Set Up the Crontab Job to Schedule the Script ⏰
 
 1. Open the crontab editor:
 `crontab -e`
@@ -48,7 +48,7 @@ Before running the script, you'll need to give it execute permission. Run the fo
 
 3. Save and exit the crontab editor.
 
-## Run the Script Manually 🏃‍♀️
+### Run the Script Manually 🏃‍♀️
 
 For testing or a one-time run, you can run the script manually with:
 `bash /path/to/your/Script.sh`
