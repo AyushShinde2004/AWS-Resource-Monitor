@@ -36,7 +36,10 @@
 ### Make the Script Executable ⚙️
 
 Before running the script, you'll need to give it execute permission. Run the following command:
-`chmod +x /path/to/your/Script.sh`
+
+```bash
+chmod +x /path/to/your/Script.sh
+```
 
 ### Set Up the Crontab Job to Schedule the Script ⏰
 
