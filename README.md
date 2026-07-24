@@ -1,6 +1,6 @@
 # 🌐 AWS Resource Monitor 📊
 
-**AWS Resource Monitor** is a lightweight yet powerful tool designed to track and log system resource consumption on your AWS instances—perfect for system administrators seeking seamless monitoring, automated logging, and timely notifications. 🚀
+**AWS Resource Monitor** is a lightweight tool designed to track and log system resource consumption on your AWS instances—perfect for system administrators seeking seamless monitoring, automated logging, and timely notifications. 🚀
 
 ---
 
@@ -44,16 +44,22 @@ chmod +x /path/to/your/script.sh
 ### Set Up the Crontab Job ⏰
 
 1. Open the crontab editor:
-`crontab -e`
+   ```bash
+   crontab -e
+   ```
 
 2. Add the following line to schedule the script to run periodically (e.g., daily at midnight):
-`0 0 * * * /path/to/your/script.sh`
+   ```bash
+   0 0 * * * /path/to/your/script.sh
+   ```
 
 3. Save and exit the crontab editor.
 
 ### Run the Script Manually 🏃‍♀️
 
 For testing or a one-time run, execute the script manually:
-`bash /path/to/your/script.sh`
+```bash
+/path/to/your/script.sh
+```
 
 Follow these steps to start monitoring your AWS instances like a pro! 💪
